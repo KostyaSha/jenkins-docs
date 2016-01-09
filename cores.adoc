@@ -2,3 +2,5 @@
 == 1.609.3
   * Something broken in HtmlUnit during `configRoundtrip` `net.sourceforge.htmlunit.corejs.javascript.EcmaError: TypeError: Cannot call method "hasClassName" of undefined (http://localhost:65256/jenkins/adjuncts/40edde3b/lib/form/hetero-list/hetero-list.js#16)`
   Solution: update to 1.625.3
+  * JenkinsRule web UI in mobile layout. Solution: update to 1.625.3
+  
