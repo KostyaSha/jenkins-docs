@@ -1,0 +1,17 @@
+== It sucks:
+ - Messed jenkins core API instead of doing native support.
+ - Messed plugins to support mixed and weird interfaces.
+ - No migration from existed linear jobs to workflow? (huge gap between the two job types and ability to switch easily between).
+ - Ugly syntax for standard Builders, Publishers (why not annotations with good aliases).
+ - Enforcing constant core dep update for plugins (backward compatibility that so many years supported is synthetic now? lol).
+ - Instead of enhancing existed job types (not so many issues) enforced all development to workflow and now jenkins 
+ has old not suitable nowadays jobs and half working warm workflow job.
+ - Only one (or two?) devs knows workflow internals and they are all in CB (enterprize company).
+ - A lot of marketing PR around half working features. (Good feature would advertise itself without any enforcements).
+ - Ugly coding style, eyes blowing during reading annotation mess (because only one dev coding it?).
+ - All development drived by enterprise company that driven by marketing and managers.
+ 
+== Good
+ - Allows do conditionals and flows that difficult to do in freestyle job that is linear
+ - Native (monster based) to plugin classes DSL/text definition of build flow (in comparison to job-dsl for example).
+ - In pair with multibranch (freestyle/workflow) will be closer to achieve Travis, etc functionality that exists for a long time.
