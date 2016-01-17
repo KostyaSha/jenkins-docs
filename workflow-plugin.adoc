@@ -10,6 +10,7 @@
  - A lot of marketing PR around half working features. (Good feature would advertise itself without any enforcements).
  - Ugly coding style, eyes blowing during reading annotation mess (because only one dev coding it?).
  - All development drived by enterprise company that driven by marketing and managers.
+ - ^ That leads to https://issues.jenkins-ci.org/browse/JENKINS-31153?focusedCommentId=246004&[the next situations]
  
 == Good
  - Allows do conditionals and flows that difficult to do in freestyle job that is linear
