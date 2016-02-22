@@ -1,3 +1,3 @@
 
-* <? 1.115 
- - broken plugin expload, symptoms: JenkinsRule instance is missing icons, workflow-plugin missing js libs, editor.
+### <? 1.115 
+ - broken plugin expload, symptoms: JenkinsRule instance is missing icons, workflow-plugin missing js libs, editor. Broken configRoundTrip because of missing resources.
